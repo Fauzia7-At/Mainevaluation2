@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+nav{
+    background-color: aqua;
+    color: azure;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    margin: 20px;
+
+}
+.error{
+    color: red;
+    margin-top: 10px;
+}
+.success {
+    color: green;
+    margin-top: 10px;
+}
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 5px;
+
+}
+form input {
+    width: 80%;
+    padding: 10px;
+   margin: 10px;
+   border:1px solid blue ;
+   border-radius: 5px;
+}
+form button {
+    width: 50%;
+    padding: 10px;
+    background-color: brown;
+   margin: 10px;
+   border:none ;
+   border-radius: 5px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+form button:hover {
+    background-color: red;
+}
